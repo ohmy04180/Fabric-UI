@@ -52,6 +52,12 @@
     outline: none;
   }
 
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible {
+    outline: 1px dashed $neutral-900;
+  }
+
   a {
     text-decoration: none;
   }
