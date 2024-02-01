@@ -14,13 +14,18 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "autoprefixer": "^9.8.8",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
+    "postcss": "^7.0.39",
+    "postcss-cli": "^11.0.0",
     "sass": "^1.53.0",
-    "sass-loader": "10.3.1"
+    "sass-loader": "10.3.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   },
   "eslintConfig": {
     "root": true,
@@ -37,9 +42,14 @@
     "rules": {}
   },
   "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead",
-    "not ie 11"
+    ">0.3%",
+    "not ie <= 10",
+    "last 3 version",
+    "Chrome >= 35",
+    "Firefox >= 38",
+    "Edge >= 10",
+    "Explorer >= 10",
+    "Safari >= 8",
+    "Opera >= 12"
   ]
 }
