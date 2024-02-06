@@ -1,6 +1,10 @@
+.guide-section {
+  padding: 60px 48px;
+}
 .test {
   display: flex;
   gap: 16px;
+
   li {
     width: 100px;
     height: 50px;
@@ -17,6 +21,25 @@
     @for $i from 1 through length($color_list) {
       &:nth-child(#{$i}) {
         background-color: nth($color_list, $i);
+      }
+    }
+  }
+
+  &.shadows {
+    li {
+      background-color: $neutral-0;
+
+      $shadows_size: (
+        #{$sm},
+        #{$md},
+        #{$lg},
+        #{$xl}
+      );
+
+      @for $i from 1 through length($shadows_size) {
+        &:nth-child(#{$i}) {
+          @include box-shadow($shadows_size, $i);
+        }
       }
     }
   }

@@ -1,15 +1,27 @@
+<!-- TODO : 시간날 때 작업해 둘 -->
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-    <p>디자인 가이드를 보여줄 페이지 입니다.</p>
-    <ol class="test">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ol>
+    <section class="guide-section">
+      <p>color system</p>
+      <ol class="test">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
+    </section>
+    <section class="guide-section">
+      <ol class="test shadows">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ol>
+    </section>
+
   </div>
 </template>
 
