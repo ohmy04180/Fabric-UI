@@ -1,12 +1,13 @@
+// theme
+@import "./themes/set-color.scss";
+@import "./themes/set-theme.scss";
+
 // tailwindCSS Reset
 @import "./tailwind/tailwind-base";
 
 // variables
 @import "abstracts/variables";
 
-// theme
-@import "./themes/set-color.scss";
-@import "./themes/set-theme.scss";
 
 // mixins
 @import "./abstracts/fonts";

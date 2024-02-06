@@ -1,9 +1,9 @@
 // TODO: [퍼블리싱] 변수 재정의 및 리팩토링
-$box-shadow: rgba(0, 0, 0, 0.25);
-
 $box-shadows: (
-  default: 0px 4px 4px 0px $box-shadow,
-  overlay: 0px 4px 8px 0px rgba(206, 211, 217, 0.7)
+  sm: 0px 2px 1px 0px rgba(162, 171, 181, 0.4),
+  md: 1px 6px 5px 0px rgba(162, 171, 181, 0.15),
+  lg: 0px 16px 20px 0px rgba(162, 171, 181, 0.3),
+  xl: 0px 30px 15px 0px rgba(124, 127, 132, 1)
 );
 
 @mixin box-shadow($shadow) {
@@ -16,5 +16,5 @@ $box-shadows: (
 
 // * Usage *
 // .box {
-//  @include box-shadow('default');
+//  @include box-shadow('sm');
 // }
