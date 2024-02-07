@@ -37,8 +37,10 @@
     gap: $spacing-24;
 
     li {
+      padding-top: 35px;
       width: 200px;
       height: 100px;
+      color:$neutral-500;
       background-color: $neutral-100;
 
       @for $i from 1 through length($box-shadows) {
