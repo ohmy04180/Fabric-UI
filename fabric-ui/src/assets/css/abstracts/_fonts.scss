@@ -4,9 +4,12 @@
 $font-families: (
   sans:
     unquote(
-      "'NotoSansKR', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', helvetica,'Apple SD Gothic Neo',sans-serif"
+      "'pretandard', 'Segoe UI', 'Open Sans', 'Helvetica Neue'"
     ),
-  serif: unquote("'Georgia', Times, serif")
+  mono:
+    unquote(
+      "'Consolas', 'Menlo', 'Courier', 'monospace'"
+    )
 );
 
 @mixin font-family($family-name) {
@@ -19,7 +22,7 @@ $font-families: (
 
 // * Usage *
 // html {
-//   @include font-family('serif');
+//   @include font-family('sans');
 // }
 
 //-------------------------------------------

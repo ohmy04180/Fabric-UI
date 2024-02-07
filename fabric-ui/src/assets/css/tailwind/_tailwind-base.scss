@@ -10,6 +10,13 @@
     vertical-align: baseline;
   }
 
+  html {
+    @include font-family(sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+  }
+
   article,
   aside,
   details,
