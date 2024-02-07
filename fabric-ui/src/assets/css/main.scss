@@ -2,12 +2,8 @@
 @import "./themes/set-color.scss";
 @import "./themes/set-theme.scss";
 
-// tailwindCSS Reset
-@import "./tailwind/tailwind-base";
-
 // variables
 @import "abstracts/variables";
-
 
 // mixins
 @import "./abstracts/fonts";
@@ -16,6 +12,9 @@
 @import "./abstracts/box-shadow";
 @import "./abstracts/retina";
 @import "./abstracts/mixins-helper";
+
+// tailwindCSS Reset
+@import "./tailwind/tailwind-base";
 
 // base
 @import "base/base";
