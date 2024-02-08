@@ -11,7 +11,7 @@
   }
 
   html {
-    @include font-family(sans);
+    @include font-family(pretandard);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
